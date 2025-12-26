@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: go-analytics-config
+  labels:
+    app: go-analytics
+    component: config
+data:
+  redis_addr: "redis:6379"
+  redis_password: ""

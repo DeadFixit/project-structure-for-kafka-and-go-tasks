@@ -1,0 +1,20 @@
+# Binaries and archives
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.o
+*.out
+*.zip
+*.tar
+*.gz
+
+# Generated docs/reports
+*.docx
+*.pdf
+
+# Build outputs
+/bin/
+/dist/
+**/vendor/
